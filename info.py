@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Testing:212002@testing.7plrokt.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Testing")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Testing')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://makemoney212002:Ganesh@212002@legions.bujewss.mongodb.net/?retryWrites=true&w=majority&appName=Legions")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Storage")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Storage')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'softurl.in')
@@ -56,7 +56,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/fhdmovies24x7')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Wwz41R3oiSk3NTZl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/fhdmovies24x7official')
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/FHDmovies24x7Offcial/3536')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
