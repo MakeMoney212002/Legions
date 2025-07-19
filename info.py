@@ -70,14 +70,7 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.📹 <i>» <b> <a href={url}>{title}</a></b> | <b><a href={url}/releaseinfo>{year}</a></b></i>
-🎭 <i><b>Genres » {genres}</b></i>
-🌟 <i><b>Rating » <a href={url}/ratings>{rating}</a> / 10</b></i>
-
-👑 <i>𝙹𝙾𝙸𝙽 » <b>@FHDmovies24x7</b></i>
-
-<i>Select Any File From Below To Download 👇</i>
-}")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.📹 <i>» <b> <a href={url}>{title}</a></b> | <b><a href={url}/releaseinfo>{year}</a></b></i> 🎭 <i><b>Genres » {genres}</b></i> 🌟 <i><b>Rating » <a href={url}/ratings>{rating}</a> / 10</b></i> 👑 <i>𝙹𝙾𝙸𝙽 » <b>@FHDmovies24x7</b></i> <i>Select Any File From Below To Download 👇</i>}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "True"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
