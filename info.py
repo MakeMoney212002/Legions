@@ -46,7 +46,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Legion:212002@legion.9
 DATABASE_NAME = environ.get('DATABASE_NAME', "Legion")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Storage')
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'softurl.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'a7d1779bd097cdf9dd9eb5044f8423350f8d326e')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'softurl.in')
