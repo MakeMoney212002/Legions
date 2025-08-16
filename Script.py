@@ -42,28 +42,28 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """<b>❗Enter Correct Name👇</b>
 <b>❗सही नाम दर्ज करें👇</b>"""
 
-    I_CUDNT = """<b><i>💢 404 Error / No Results❗
+    I_CUDNT = """<b><i>💢 Sorry – It’s Not Available❗️
 
-🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
-    I_CUD_NT = """<b><i>💢 404 Error / No Results❗
+    I_CUD_NT = """<b><i>💢 Sorry – It’s Not Available❗️
 
-🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
-    MVE_NT_FND = """<b><i>💢 404 Error / No Results❗
+    MVE_NT_FND = """<b><i>💢 Sorry – It’s Not Available❗️
 
-🚫 The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
 🗨 Please Follow Request Tips
-🔆 Request Tips › [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
 
     TOP_ALRT_MSG = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
-    MELCOW_ENG = """<b><i>🔆 "FHDmovies24x7 • GROUP" 亗 🔆
-•───────────────────• 
+    MELCOW_ENG = """<b><i>🔆 "FHDmovies24x7❈GROUP" 亗 🔆
+⌬───━━━━━━━━━━───⌬ 
 ⚜Hey {}, Welcome To FHDmovies24x7 • Group. You Can Request Any Movies, Web-Series, Anime, K-Dramas, Animation etc., here....</i></b>"""
 
     SHORTLINK_INFO = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
