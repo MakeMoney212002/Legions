@@ -130,8 +130,8 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-          #      InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-           #     InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
             ]
         )
     else:
@@ -291,14 +291,14 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
             ),
         ])
 
-  #  btn.insert(
-  #      0,
-   #     [
-     #       InlineKeyboardButton(
-     #           text="👇 𝖲𝖾𝗅𝖾𝖼𝗍 𝖸𝗈𝗎𝗋 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 👇", callback_data="ident"
-    #        )
-     #   ],
- #   )
+    btn.insert(
+        0,
+        [
+            InlineKeyboardButton(
+                text="👇 𝖲𝖾𝗅𝖾𝖼𝗍 𝖸𝗈𝗎𝗋 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 👇", callback_data="ident"
+            )
+        ],
+    )
     req = query.from_user.id
     offset = 0
     btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"fl#homepage#{key}")])
@@ -370,30 +370,30 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
 
     try:
         if settings['auto_delete']:
-        #    btn.insert(0, 
+            btn.insert(0, 
                 [
-                #    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-              #      InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
-         #       ]
-      #      )
-
-       # else:
-       #     btn.insert(0, 
-                [
-            #        InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-         #           InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                    InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
                 ]
-         #   )
+            )
+
+        else:
+            btn.insert(0, 
+                [
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                    InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                ]
+            )
                 
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
-    #    btn.insert(0, 
+        btn.insert(0, 
             [           
-          #      InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-       #         InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
-     #       ]
-    #    )
-#
+                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+            ]
+        )
+
     # btn.insert(0, [
     #     InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=await get_tutorial(query.message.chat.id))
     # ])
@@ -418,12 +418,12 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             [InlineKeyboardButton(text="𖧷━━━━━「 The End 」━━━━𖧷",callback_data="pages")]
         )
     # if ENABLE_SHORTLINK == True:
-  #  btn.insert(0, 
-       #         [
+    btn.insert(0, 
+                [
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                  #  InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
-             #   ]
-         #   )
+                    InlineKeyboardButton("Sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                ]
+            )
     # else:
     #     btn.insert(0, 
     #            [
@@ -485,14 +485,14 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
             ),
         ])
 
-   # btn.insert(
-      #  0,
-      #  [
-        #    InlineKeyboardButton(
-            #    text="👇 𝖲𝖾𝗅𝖾𝖼𝗍 Season 👇", callback_data="ident"
-          #  )
-      #  ],
-  #  )
+    btn.insert(
+        0,
+        [
+            InlineKeyboardButton(
+                text="👇 𝖲𝖾𝗅𝖾𝖼𝗍 Season 👇", callback_data="ident"
+            )
+        ],
+    )
     req = query.from_user.id
     offset = 0
     btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"next_{req}_{key}_{offset}")])
@@ -1663,12 +1663,12 @@ async def auto_filter(client, msg, spoll=False):
     #         ]
     #         for file in files
     #     ]
-    #    btn.insert(0, 
-    #        [
-    #            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-    #            InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
-    #        ]
-    #    )
+        btn.insert(0, 
+            [
+                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+            ]
+        )
     # if ENABLE_SHORTLINK == True:
     #     btn.insert(0, 
     #        [
