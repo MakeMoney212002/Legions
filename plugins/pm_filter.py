@@ -392,7 +392,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
           #      InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
        #         InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
      #       ]
-        )
+    #    )
 #
     # btn.insert(0, [
     #     InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=await get_tutorial(query.message.chat.id))
