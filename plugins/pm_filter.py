@@ -1667,8 +1667,8 @@ async def auto_filter(client, msg, spoll=False):
     #        [
     #            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
     #            InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
-            ]
-        )
+    #        ]
+    #    )
     # if ENABLE_SHORTLINK == True:
     #     btn.insert(0, 
     #        [
