@@ -42,6 +42,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
             InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official')
+        
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -83,6 +84,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
             InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official')
+        
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
