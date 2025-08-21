@@ -41,7 +41,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
-            InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official')
+            InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official'),
             InlineKeyboardButton('🌟 Premium Membership 🌟', url='https://telegram.me/FHDmovies24x7Official/5002')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
