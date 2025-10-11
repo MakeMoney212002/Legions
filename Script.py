@@ -44,21 +44,21 @@ Nᴀᴍᴇ - {}"""
 
     I_CUDNT = """<b><i>💢 Sorry – It’s Not Available❗️
 
-⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7/10">Click Here</a>]
 🗨 Please Follow Request Tips !
-🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7/9">Click Here</a>]</i></b>"""
 
     I_CUD_NT = """<b><i>💢 Sorry – It’s Not Available❗️
 
-⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7/10">Click Here</a>]
 🗨 Please Follow Request Tips !
-🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7/9">Click Here</a>]</i></b>"""
 
     MVE_NT_FND = """<b><i>💢 Sorry – It’s Not Available❗️
 
-⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7Official/3540">Click Here</a>]
+⚠️ The Reason❓[<a href="https://telegram.me/FHDmovies24x7/10">Click Here</a>]
 🗨 Please Follow Request Tips !
-🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7Official/3360">Click Here</a>]</i></b>"""
+🔆 Request Tips ➔ [<a href="https://telegram.me/FHDmovies24x7/9">Click Here</a>]</i></b>"""
 
     TOP_ALRT_MSG = """🔆彡[ @FHDmovies24x7 ]彡🔆"""
 
@@ -82,7 +82,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- <a href="https://telegram.me/FHDmovies24x7Official"><b><i>{file_name}</i></b></a>"""
+ <a href="https://telegram.me/FHDmovies24x7"><b><i>{file_name}</i></b></a>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
