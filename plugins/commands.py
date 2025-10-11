@@ -41,7 +41,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
-            InlineKeyboardButton('⚜ Updates', url='https://t.me/+WlNwHC_WngI0Yzk1')
+            InlineKeyboardButton('⚜ Updates', url='https://t.me/FHDmovies24x7')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -82,7 +82,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
-            InlineKeyboardButton('⚜ Updates', url='https://t.me/+WlNwHC_WngI0Yzk1')
+            InlineKeyboardButton('⚜ Updates', url='https://t.me/FHDmovies24x7')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
