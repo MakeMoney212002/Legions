@@ -41,7 +41,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
-            InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official')
+            InlineKeyboardButton('⚜ Updates', url='https://t.me/+WlNwHC_WngI0Yzk1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -69,9 +69,9 @@ async def start(client, message):
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
-                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7official")])
+                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7official")])
+                btn.append([InlineKeyboardButton("🔆彡⟨ FHDmovies24x7 ⟩彡🔆", url=f"https://telegram.me/fhdmovies24x7")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**🔆 First Join Our Main Channel & Then Request Again in Group ♻ \n\n 🔆 पहले हमारे मैन चैनल से जुड़ें और फिर ग्रुप में दोबारा रिक्वेस्ट करें ♻**",
@@ -82,7 +82,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('❓How To Use Me', url=f'https://telegram.me/{DWLD}'),
-            InlineKeyboardButton('⚜ Updates', url='https://telegram.me/FHDmovies24x7Official')
+            InlineKeyboardButton('⚜ Updates', url='https://t.me/+WlNwHC_WngI0Yzk1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
